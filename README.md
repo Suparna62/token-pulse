@@ -95,11 +95,10 @@ token-pulse/
 
 ---
 
-# 🖼 Screenshots (Add After Deployment)
+# 🖼 Desktop screenshot
+![Token Pulse](<img width="1920" height="1080" alt="Screenshot (699)" src="https://github.com/user-attachments/assets/3986c92a-f950-47c7-8b8b-0bd36a12be74" />
+) 
 
-Add here:
-- Desktop screenshot
-- Mobile responsive screenshot
 
 ---
 
