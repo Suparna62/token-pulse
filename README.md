@@ -6,7 +6,7 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 ---
 
 ## 🚀 Live Demo (Vercel Deployment)
-🔗 **token-pulse-q1m1.vercel.app**
+🔗 **https://token-pulse-q1m1.vercel.app/trade**
 
 ---
 
