@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0d10;
+  --panel: #0d0f12;
+  --muted: #7b8191;
+  --axiomBlue: #1f6feb;
+  --success: #16c784;
+  --danger: #ea3943;
+}
+
+body {
+  background: var(--bg);
+  color: #e6eef3;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* shimmer */
+@keyframes shimmer { 0% { background-position: -200% 0 } 100% { background-position: 200% 0 } }
+.shimmer {
+  background: linear-gradient(90deg, rgba(15,17,19,1) 8%, rgba(22,24,26,1) 18%, rgba(15,17,19,1) 33%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+.token-card-flash-up { box-shadow: 0 0 0 4px rgba(34,197,94,0.08); }
+.token-card-flash-down { box-shadow: 0 0 0 4px rgba(239,68,68,0.08); }
