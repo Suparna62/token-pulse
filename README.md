@@ -1,4 +1,4 @@
-# 📌 Token Pulse – Axiom Trade Pulse Replica (Frontend Assignment)
+# 📌 Token Pulse –> Frontend Task - Token Trading Table
 
 A pixel-perfect replica of **Axiom Trade’s Pulse Token Discovery Table** built using **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **React Query**, and **Radix UI**.  
 This project demonstrates real-time trading UI, performance optimization, and modern component architecture.
