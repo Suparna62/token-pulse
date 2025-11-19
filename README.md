@@ -55,8 +55,8 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 
 token-pulse/
 │
-├── app/
-│ ├── layout.tsx
+├── app/|
+│ ├── layout.tsx|
 │ ├── globals.css
 │ ├── providers.tsx
 │ └── page.tsx // redirect → /trade
@@ -96,8 +96,7 @@ token-pulse/
 ---
 
 # 🖼 Desktop screenshot
-![Token Pulse](<img width="1920" height="1080" alt="Screenshot (699)" src="https://github.com/user-attachments/assets/3986c92a-f950-47c7-8b8b-0bd36a12be74" />
-) 
+![Token Pulse](image.png) 
 
 
 ---
