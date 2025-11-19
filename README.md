@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Token Pulse — Final Submission Ready
 
 Run locally:
@@ -18,3 +19,6 @@ It includes:
 - Skeletons and shimmer loading
 
 Make sure to visit /trade route.
+=======
+# token-pulse
+>>>>>>> 95727935c8664df696b562e05cf9e405af733fca
