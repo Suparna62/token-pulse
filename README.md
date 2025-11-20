@@ -6,7 +6,7 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 ---
 
 ## 🚀 Live Demo (Vercel Deployment)
-🔗 **https://token-pulse-kl7k.vercel.app/trade**
+🔗 **https://token-pulse-suva.vercel.app/trade**
 
 ---
 
