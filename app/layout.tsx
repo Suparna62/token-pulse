@@ -5,9 +5,9 @@ import Header from "../components/layout/Header";
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-[#0a0c0d] text-white">
+      <body className="bg-[#0a0c0d] text-white min-h-screen">
         <Providers>
-          <Header />     {/*  ← If this is missing, header will NOT appear */}
+          <Header />
           {children}
         </Providers>
       </body>
