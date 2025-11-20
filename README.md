@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image ss" src="https://github.com/user-attachments/assets/9279d6a2-a7d5-4f54-bacf-0718491c21a0" /># 📌 Token Pulse –> Frontend Task - Token Trading Table
+# 📌 Token Pulse –> Frontend Task - Token Trading Table
 
 A pixel-perfect replica of **Axiom Trade’s Pulse Token Discovery Table** built using **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **React Query**, and **Radix UI**.  
 This project demonstrates real-time trading UI, performance optimization, and modern component architecture.
@@ -97,7 +97,8 @@ token-pulse-final/
 
 
 # 🖼 Desktop screenshot
-![Token Pulse](image ss.png) 
+ 
+<img width="1920" height="1080" alt="image ss" src="https://github.com/user-attachments/assets/9279d6a2-a7d5-4f54-bacf-0718491c21a0" />
 
 
 ---
