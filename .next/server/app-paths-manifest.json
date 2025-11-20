@@ -1,4 +1,5 @@
 {
-  "/page": "app/page.js",
-  "/trade/page": "app/trade/page.js"
+  "/not-found": "app/not-found.js",
+  "/trade/page": "app/trade/page.js",
+  "/page": "app/page.js"
 }
