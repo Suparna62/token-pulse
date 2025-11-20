@@ -1,22 +1,26 @@
-'use client'
-import { useEffect, useRef, useState } from 'react'
+"use client";
 
-export function usePriceAnimation(id: string, price: number) {
-  const prevRef = useRef<number | null>(null)
-  const [flashClass, setFlashClass] = useState<string>('')
+import { useEffect, useRef, useState } from "react";
+
+export function usePriceAnimation(price: number) {
+  const priceRef = useRef<HTMLSpanElement | null>(null);
+  const [colorClass, setColorClass] = useState("");
 
   useEffect(() => {
-    const prev = prevRef.current
-    if (prev === null) {
-      prevRef.current = price
-      return
-    }
-    if (price > prev) setFlashClass('token-card-flash-up')
-    else if (price < prev) setFlashClass('token-card-flash-down')
-    prevRef.current = price
-    const t = setTimeout(() => setFlashClass(''), 600)
-    return () => clearTimeout(t)
-  }, [price, id])
+    if (!priceRef.current) return;
 
-  return { flashClass }
+    const prev = Number(priceRef.current.dataset.prev || price);
+    let newColor = "";
+
+    if (price > prev) newColor = "text-green-400";
+    if (price < prev) newColor = "text-red-400";
+
+    priceRef.current.dataset.prev = String(price);
+    setColorClass(newColor);
+
+    const timer = setTimeout(() => setColorClass(""), 400);
+    return () => clearTimeout(timer);
+  }, [price]);
+
+  return { priceRef, colorClass };
 }
