@@ -1,4 +1,4 @@
-# 📌 Token Pulse –> Frontend Task - Token Trading Table
+<img width="1920" height="1080" alt="image ss" src="https://github.com/user-attachments/assets/9279d6a2-a7d5-4f54-bacf-0718491c21a0" /># 📌 Token Pulse –> Frontend Task - Token Trading Table
 
 A pixel-perfect replica of **Axiom Trade’s Pulse Token Discovery Table** built using **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **React Query**, and **Radix UI**.  
 This project demonstrates real-time trading UI, performance optimization, and modern component architecture.
@@ -6,7 +6,7 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 ---
 
 ## 🚀 Live Demo (Vercel Deployment)
-🔗 **https://token-pulse-q1m1.vercel.app/trade**
+🔗 **https://token-pulse-kl7k.vercel.app/trade**
 
 ---
 
@@ -53,50 +53,51 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 
 # 📁 Project Structure
 
-token-pulse/
+```
+token-pulse-final/
 │
-├── app/|
-│ ├── layout.tsx|
-│ ├── globals.css
-│ ├── providers.tsx
-│ └── page.tsx // redirect → /trade
-│ └── trade/
-│ └── page.tsx // main UI page
+├── app/
+│   ├── layout.tsx
+│   ├── globals.css
+│   ├── providers.tsx
+│   ├── page.tsx          
+│   └── trade/
+│       └── page.tsx      
 │
 ├── components/
-│ ├── atoms/
-│ │ └── Tooltip.tsx
-│ ├── molecules/
-│ │ └── TokenCard.tsx
-│ └── organisms/
-│ └── TokenColumn.tsx
+│   ├── atoms/
+│   │   └── Tooltip.tsx
+│   ├── molecules/
+│   │   └── TokenCard.tsx
+│   └── organisms/
+│       └── TokenColumn.tsx
 │
 ├── hooks/
-│ ├── usePriceAnimation.ts
-│ └── useWebsocket.ts
+│   ├── usePriceAnimation.ts
+│   └── useWebsocket.ts
 │
 ├── store/
-│ ├── index.ts
-│ └── tokenSlice.ts
+│   ├── index.ts
+│   └── tokenSlice.ts
 │
 ├── pages/
-│ └── api/
-│ ├── tokens.ts
-│ └── tokens/[id]/history.ts
+│   └── api/
+│       ├── tokens.ts
+│       └── tokens/[id]/history.ts
 │
 ├── public/
-│ └── placeholder.png
+│   └── placeholder.png
 │
 ├── package.json
 ├── tsconfig.json
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
+```
 
----
 
 # 🖼 Desktop screenshot
-![Token Pulse](image.png) 
+![Token Pulse](image ss.png) 
 
 
 ---
