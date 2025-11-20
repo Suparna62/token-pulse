@@ -10,8 +10,8 @@ This project demonstrates real-time trading UI, performance optimization, and mo
 
 ---
 
-## 🎥 YouTube Demo (Required 1–2 min Video)
-🔗 **https://youtube.com/your-video-link-here**
+## 🎥 YouTube Demo 
+🔗 **https://youtu.be/KJUQeDi3io4?si=bPLMx2a3yloXf0q2**
 
 ---
 
@@ -108,7 +108,7 @@ token-pulse-final/
 ### 1️⃣ Clone the repository
 ```sh
 git clone https://github.com/Suparna62/token-pulse.git
-cd token-pulse
+cd token-pulse-final
 ```
 # 2️⃣ Install dependencies
 ```bash
